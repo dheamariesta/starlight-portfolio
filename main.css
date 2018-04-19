@@ -120,3 +120,17 @@ body{
   -webkit-animation:move-twink-back 200s linear infinite;
   animation:move-twink-back 200s linear infinite;
 }
+@media only screen
+  and (max-width: 480px){
+    #title{
+      font-size:80px;
+    }
+    #landing-banner, #title-container{
+      height: 100vh;
+      overflow-x: hidden;
+    }
+    .content{
+      overflow-x: hidden;
+    }
+
+}
