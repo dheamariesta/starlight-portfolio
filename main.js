@@ -1,5 +1,5 @@
 // var scrollableElement = document.getElementById('scrollableElement');
-var el = document.getElementById('project-title');
+var el = document.getElementById('project-title-row');
 document.addEventListener('wheel', findScrollDirectionOtherBrowsers);
 
 function findScrollDirectionOtherBrowsers(event){

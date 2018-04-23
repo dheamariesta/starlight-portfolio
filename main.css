@@ -74,7 +74,18 @@ body{
   /* margin-left: -480px; */
   margin-top: -80px;
 }
-
+#project-description-body{
+  position: relative;
+}
+.row-no-animation{
+  display:block;
+  position: absolute;
+  top: 200vh;
+  width: 100vw;
+  height: 100vh;
+  /* width:  */
+  z-index: 2;
+}
 @keyframes move-twink-back {
     from {background-position:0 0;}
     to {background-position:-10000px 5000px;}
